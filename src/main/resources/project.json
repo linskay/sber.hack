@@ -1,0 +1,53 @@
+{
+  "requestId": "d6c4b902-c884-4f3f-82f0-88714c68862c",
+  "project": {
+    "id": "7476064025108086785",
+    "projectId": "7476063426289008641",
+    "name": "исходный",
+    "isReadOnly": false,
+    "calendar": "general",
+    "planType": "DRAFT",
+    "lastModifyDate": "2025-02-27T15:22:12.517",
+    "lastModifyUser": null,
+    "publishDate": null,
+    "startDate": "2024-02-05",
+    "createAccObjWorkflowStatusId": null,
+    "lastModifyAccObjWorkflowStatusId": null,
+    "lastTrackerSyncDate": null
+  },
+  "success": true,
+  "tasks": [
+    {
+      "id": "7476064025108086788",
+      "name": "Аналитика",
+      "startDate": "2024-02-07T15:22:07",
+      "endDate": "2024-02-14T15:22:07",
+      "duration": 5.0,
+      "constraintType": "startnoearlierthan",
+      "constraintDate": "2024-02-07T15:22:07"
+    },
+    {
+      "id": "7476064025108086789",
+      "name": "Разработка",
+      "startDate": "2024-02-14T15:22:07",
+      "endDate": "2024-02-29T15:22:07",
+      "duration": 10.0
+    }
+  ],
+  "resources": [
+    {
+      "id": 1,
+      "role": "developer",
+      "calendar": ["2024-02-10", "2024-02-11"]
+    },
+    {
+      "id": 2,
+      "role": "designer",
+      "calendar": []
+    }
+  ],
+  "projectCalendar": {
+    "workingDays": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+    "holidays": ["2024-02-23"]
+  }
+}
